@@ -216,7 +216,7 @@ letter-spacing: .4rem;
         align-items: center;
         flex-direction: column;
         gap: 1.5rem;
-        padding-top: 10rem;
+        padding-top: 0rem;
     
 
     }
@@ -228,7 +228,8 @@ letter-spacing: .4rem;
     }
 
     .departments .deptsView{
-        display: block;
+        display: flex;
+    flex-direction: row;
         box-sizing: border-box;
     }
     .departments .deptsAlign{
@@ -256,7 +257,7 @@ letter-spacing: .4rem;
 
 
     .box{
-        display: flex;
+        
         justify-content: center;
         align-items: center;
         min-height: 90vh;
@@ -280,11 +281,47 @@ letter-spacing: .4rem;
         font-size: 5rem;
         letter-spacing: .4rem;
             }
-
-
-
-
+.About{
+    margin: 1rem;
+}
+.About .why{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.About .content{
+    margin: 10rem;
+    font-size: 1cm;
+    color: var(--black);
+}
+.content span{
     
+    color: var(--green);
+}
+.About .adv{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cards{
+    margin: 0.2cm;
+    padding: 0.5cm;
+    
+}
+.cardorder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row;
+}
+.cards i{
+    color: var(--green);
+    font-size: 5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+   }
 
 
 
