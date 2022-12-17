@@ -84,6 +84,11 @@ padding-top: 10rem;
 }
 
 
+.content-left.h2{
+    color: var(--black);
+}
+
+
 
 
 
@@ -216,7 +221,7 @@ letter-spacing: .4rem;
         align-items: center;
         flex-direction: column;
         gap: 1.5rem;
-        padding-top: 10rem;
+        padding-top: 0rem;
     
 
     }
@@ -228,7 +233,8 @@ letter-spacing: .4rem;
     }
 
     .departments .deptsView{
-        display: block;
+        display: flex;
+    flex-direction: row;
         box-sizing: border-box;
     }
     .departments .deptsAlign{
