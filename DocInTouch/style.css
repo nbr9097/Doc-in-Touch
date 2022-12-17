@@ -32,7 +32,7 @@ html{
 
 section{
 padding: 2rem 9%;
-
+padding-top: 10rem;
 
 
 }
@@ -91,6 +91,205 @@ padding: 2rem 9%;
 
 
 
+
+section:nth-child(even){
+    background: #f5f5f5;
+}
+.heading{
+text-align: center;
+padding-bottom: 2rem;
+text-shadow: var(--text-shadow);
+color: var(--black);
+font-size: 5rem;
+letter-spacing: .4rem;
+
+
+}
+
+.heading span{
+    
+    color: var(--green);
+}
+
+
+
+
+
+.services .box-container{
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+    gap: 2rem;
+   }
+   .services .box-container .box{
+
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2.5rem;
+
+   }
+   .btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding: .5rem;
+   padding-left: 1rem;
+   border: var(--border);
+   border-radius: .5rem;
+   box-shadow: var(--box-shadow);
+   color: var(--green);
+   }
+
+
+   .services .box-container .box i{
+    color: var(--green);
+    font-size: 5rem;
+    padding-bottom: .5rem;
+   }
+
+   .services .box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: 1rem 0;
+   }
+   .services .box-container .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+   }
+
+   .doctors .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+   gap: 2rem;
+   }
+   
+   .doctors .box-container .box{
+
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2rem;
+    text-align: center;
+   }
+   .doctors .box-container.box img{
+
+    height: 20rem;
+    border:var(--border);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+   }
+   .doctors .box-container .box h3{
+   color: var(--black);
+   font-size: 2rem;
+
+   }
+
+   
+    .doctors .box-container .box span{
+        color: var(--green);
+        font-size: 1.5rem;
+     
+        }
+     .doctors .box-container .box .share{
+      padding-top: 2rem;
+
+     }
+
+     .doctors .box-container .box .share a{
+
+        height: 5rem;
+        width: 5rem;
+        line-height: 4.5rem;
+        font-size: 2rem;
+        color: var(--green);
+        border-radius: .5rem;
+        border: var(--border);
+        margin: 3rem;
+     }
+
+
+
+
+
+     .departments{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-top: 10rem;
+    
+
+    }
+    .departments a{
+        color: var(--black);
+    }
+    .departments a:hover{
+        color: var(--green);
+    }
+
+    .departments .deptsView{
+        display: block;
+        box-sizing: border-box;
+    }
+    .departments .deptsAlign{
+        padding: 1rem;
+        margin-bottom: 1.25rem;
+        flex: auto;
+    }
+    
+    
+    
+    .doctable{
+        display: flex;
+        position: relative;
+    }
+    .viewdoc{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        margin-top: 1.5rem;
+        box-sizing: border-box;
+    }
+
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+        
+    }
+    .box .container{
+      width: 450px;
+      display: flex;
+      flex-direction: column;
+
+
+    }
+
+
+
+    .top-header span{
+        color: var(--black);
+        text-align: center;
+        padding-bottom: 2rem;
+        text-shadow: var(--text-shadow);
+        font-size: 5rem;
+        letter-spacing: .4rem;
+            }
+
+
+
+
+    
 
 
 
