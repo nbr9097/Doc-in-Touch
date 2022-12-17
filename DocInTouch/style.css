@@ -84,14 +84,39 @@ padding: 2rem 9%;
 }
 
 
+.departments{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 10rem;
+}
+.departments .deptsView{
+    display: block;
+    box-sizing: border-box;
+}
+.departments .deptsAlign{
+    padding: 1rem;
+    margin-bottom: 1.25rem;
+    flex: auto;
+}
 
 
 
-
-
-
-
-
+.doctable{
+    display: flex;
+    position: relative;
+}
+.viewdoc{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+}
 
 
 
