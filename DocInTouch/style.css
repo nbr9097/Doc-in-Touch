@@ -254,18 +254,20 @@ letter-spacing: .4rem;
         box-sizing: border-box;
     }
 
-
+    
     .box{
-        display: flex;
+        
         justify-content: center;
         align-items: center;
         min-height: 90vh;
         
     }
     .box .container{
-      width: 450px;
+        background-image: -webkit-linear-gradient(--green);
+      width: 350px;
       display: flex;
       flex-direction: column;
+      padding: 0 15px 0 15px;
 
 
     }
@@ -280,7 +282,22 @@ letter-spacing: .4rem;
         font-size: 5rem;
         letter-spacing: .4rem;
             }
+            
+     .top-header header{
+      
+        color: var(--green);
+        
+        padding-bottom: 1rem;
+        text-shadow: var(--text-shadow);
+        font-size: 4rem;
+        letter-spacing: .4rem;
 
+     }
+     
+     
+     input{
+        color: var(--green);
+     }
 
 
 
