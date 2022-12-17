@@ -287,8 +287,15 @@ letter-spacing: .4rem;
         letter-spacing: .4rem;
             }
 
-
-
+.fordoctorbody{
+    padding-top: 10rem;
+    font-size: 0.5cm;
+}
+.signin{
+    margin-left: 150px;
+    margin-top: 40px;
+    padding: 10;
+}
 
     
 
@@ -362,7 +369,8 @@ letter-spacing: .4rem;
     display: block;
     margin: 2.5rem;
    }
-}
+
+
 
 @media(max-width:450px){
     html{

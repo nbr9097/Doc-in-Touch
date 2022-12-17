@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+<style>
+.error {color: #FF0000;}
+</style>
+<a href="page.php"></a>
+</head>
+<body>  
+
+<h2>Doctor Registration</h2>
+<p><span class="error">* required field</span></p>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+    Title: <input type="text" name="name" value=" Dr.">
+    <span class="error">* <?php echo $nameErr;?></span>
+    <br><br>
+    First Name: <input type="text" name="name" value="">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+  Last Name: <input type="text" name="name" value="">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+  District: <input type="text" name="email" value=>
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  
+  Gender:
+  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>Female
+  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> Male
+  <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> Other  
+  <span class="error">* <?php echo $genderErr;?></span>
+  <br><br>
+  National ID / Passport Number: <input type="text" name="email" value=>
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  Registration Number (BMDC): <input type="text" name="email" value=>
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  Doctor Type: <input type="text" name="email" value=>
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
+  Mobile number: <input type="text" name="name" value="">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+  E-mail: <input type="text" name="name" value="">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+ password: <input type="text" name="name" value="">
+  <span class="error">* <?php echo $nameErr;?></span>
+  <br><br>
+
+
+  <input type="submit" name="submit" value="Submit">  
+</form>
+</body>
+</html>
