@@ -84,6 +84,11 @@ padding-top: 10rem;
 }
 
 
+.content-left.h2{
+    color: var(--black);
+}
+
+
 
 
 
@@ -281,47 +286,11 @@ letter-spacing: .4rem;
         font-size: 5rem;
         letter-spacing: .4rem;
             }
-.About{
-    margin: 1rem;
-}
-.About .why{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-.About .content{
-    margin: 10rem;
-    font-size: 1cm;
-    color: var(--black);
-}
-.content span{
+
+
+
+
     
-    color: var(--green);
-}
-.About .adv{
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.cards{
-    margin: 0.2cm;
-    padding: 0.5cm;
-    
-}
-.cardorder{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-flow: row;
-}
-.cards i{
-    color: var(--green);
-    font-size: 5rem;
-    padding-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-   }
 
 
 
