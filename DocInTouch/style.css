@@ -307,62 +307,14 @@ letter-spacing: .4rem;
      }
      
      
-
-    
-     .review .box-container{
- 
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
-        gap: 2rem;
-       }
-       .review .box-container .box{
-    
-        background: #fff;
-        border-radius: .5rem;
-        box-shadow: var(--box-shadow);
-        border: var(--border);
-        padding: 2.5rem;
-        text-align: center;
-        position: relative;
-        overflow: hidden;
-        z-index: 0;
-
-    
-       }
-       .review .box-container .box img{
-         height:10rem ;
-         width: 10rem;
-         border-radius: 50%;
-         object-fit: cover;
-        border: #444.5rem solid #fff;
-
-
-
-       }
-
-
-
-
-
-
-
-    .stars i{
+     input{
         color: var(--green);
-        font-size: 5rem;
-        padding-bottom: .5rem;
-       }
+     }
+
+
+
     
-    .review .box-container .box h3{
-        color: var(--black);
-        font-size: 2.2rem;
-        padding: .5rem 0;
-       }
-    .review .box-container .box p{
-        color: var(--light-color);
-        font-size: 1.4rem;
-        line-height: 2;
-       }
-      
+
 
 
 
@@ -548,7 +500,8 @@ form {
     display: block;
     margin: 2.5rem;
    }
-}
+
+
 
 @media(max-width:450px){
     html{
