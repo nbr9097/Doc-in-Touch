@@ -260,7 +260,7 @@ letter-spacing: .4rem;
         box-sizing: border-box;
     }
 
-
+    
     .box{
         
         justify-content: center;
@@ -269,9 +269,11 @@ letter-spacing: .4rem;
         
     }
     .box .container{
-      width: 450px;
+        background-image: -webkit-linear-gradient(--green);
+      width: 350px;
       display: flex;
       flex-direction: column;
+      padding: 0 15px 0 15px;
 
 
     }
@@ -287,15 +289,8 @@ letter-spacing: .4rem;
         letter-spacing: .4rem;
             }
 
-.fordoctorbody{
-    padding-top: 10rem;
-    font-size: 0.5cm;
-}
-.signin{
-    margin-left: 150px;
-    margin-top: 40px;
-    padding: 10;
-}
+
+
 
     
 
