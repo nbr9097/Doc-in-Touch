@@ -72,6 +72,12 @@ padding-top: 10rem;
     cursor: pointer;
     display: none;
 }
+.home marquee{
+    
+    color: var(--green);
+    font-size: 2rem;
+}
+
 .home{
     display: flex;
     align-items: center;
@@ -79,15 +85,42 @@ padding-top: 10rem;
     gap: 1.5rem;
     padding-top: 10rem;
 }
-.home.image{
-    flex: 1 1 45rem;
+
+
+.home .content h3{
+    font-size: 4rem;
+    color: var(--black);
+    line-height: 1.6;
+    text-shadow: var(--text-shadow);
+
 }
+.home .content h3 span{
+    color: var(--green);
+    text-shadow: var(--text-shadow);
 
+}
+.home .box-container{
+    display: flex;
+    flex-direction: row;
+}
+.home .content{
+    margin-left: 4rem;
+    margin-top: 15rem;
+}
+.home .content p{
+    font-size: 2.3rem;
+    color: var(--light-color);
+}
+.home .content h6{
 
-.content-left.h2{
     color: var(--black);
 }
-
+.homepara{
+    font-size: 2rem;
+}
+.home .content .btn{
+    font-size: 2rem;
+}
 
 
 
@@ -269,7 +302,7 @@ letter-spacing: .4rem;
         
         justify-content: center;
         align-items: center;
-        min-height: 90vh;
+        
         color: var(--green);
         
     }
@@ -313,9 +346,128 @@ letter-spacing: .4rem;
 
 
 
+
+     .book .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
     
+    .book .row .image{
+        flex: 1 1 45rem;
+    }
+    
+    .book .row .image img{
+        width: 65%;
+    }
+    
+    .book .row form{
+        flex: 1 1 1rem;
+        background: #fff;
+        border: var(--border);
+        box-shadow: var(--box-shadow);
+        text-align: center;
+        padding: 2rem;
+    
+    }
+    
+    .book .row form h3{
+    
+        color:var(--black);
+        padding-bottom: 1rem;
+        font-size: 3rem;
+    
+    }
+    
+    .book .row form .box{
+        width: 70%;
+        height: 1%;
+        margin: .7rem 0;
+        border-radius: .5rem;
+        border: var(--border);
+        font-size: 1.6rem;
+        color: var(--black);
+        text-transform: none;
+        padding: 1rem;
+    }
+    
+    .book .row form .btn{
+        padding:1rem 3rem;
+    }
+/* review section starts*/
+
+.review .box-container{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+   gap: 2rem;
+   }
+   .review .box-container .box{
+      border: var(--border);
+      box-shadow: var(--box-shadow);
+      border-radius: .5rem;
+      padding: .2.5rem;
+      background: #fff;
+      text-align: center;
+      position: relative;
+      z-index: 0;
+
+   }
+   .review .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid #fff;
+   }
+   .review .box-container .box h3{
+    color:var(--light-color);    
+    font-size: 2.2rem;
+    padding: .5rem 0;
+ 
+
+   }
+   .review .box-container .box .stars i{
 
 
+    color: var(--green);
+    line-height: 1.8;
+    font-size: 1.6rem;
+   }
+
+
+
+
+
+
+
+
+
+
+
+/* review section ends*/
+
+.contactlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10rem;
+
+}
+
+.contactlogo a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: var(--green);
+    border-radius: .5rem;
+    border: var(--border);
+    margin: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
 
 
 
@@ -398,20 +550,162 @@ form {
   /* Change styles for span and cancel button on extra small screens */
 
 
+  /*about*/
+.why{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.content h3{
+    font-size: 3rem;
+}
+.content span{
+    color: #16a085;
+}
+.cardorder{
+    display: flex;
+    flex-direction: row;
+
+}
+.adv{
+    padding: 2rem;
+    font-size: 1rem;
+}
+.cards h3{
+    font-size: 2rem;
+}
+.cards i{
+    font-size: 5rem;
+    height: 7rem;
+    color: #16a085;
+}
 
 
+/*for doctors*/
+.fordoctorbody{
+    margin-top: 10rem;
+    padding-bottom: 7rem;
+}
+.fordoctorbody h2{
+    font-size: 3rem;
+    color: var(--black);
+}
+.fordoctorbody p{
+    font-size: 2rem;
+}
+.fordoctorbody a{
+    font-size: 2rem;
+    margin-left: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 5rem;
+}
+.fordoctorbody2{
+    margin-top: -3rem;
+}
+.fordoctorbody2 h2{
+    font-size: 3rem;
+    color: var(--black);
+}
+.fordoctorbody2 p{
+    font-size: 2rem;
+}
 
 
+/*signin page*/
+.signup{
+
+}
+.signup h2{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--black);
+}
+.signup p{
+    font-size: 1rem;
+    margin-left: 70rem;
+}
+.label{
+    font-size: 1.5rem;
+}
+.signup a{
+    font-size: 2rem;
+    padding-right: 1rem;
+    margin-left: 3rem;
+}
+
+/*searchbar*/
+.searchbar .container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9));
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 700;
+    max-width: 800;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 0px 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #444;
+}
+.search-bar button img{
+    width: 25px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 20px;
+    height: 40px;
+    background-color:rgb(228, 222, 222);
+    cursor: pointer;
+}
 
 
-
-
-
-
-
-
-
-
+.contactform{
+    padding-top: 20rem;
+    display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 50rem;
+}
+.contactform .box{
+    width: 70%;
+    height: 1%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    border: var(--border);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
 
 
 
@@ -502,10 +796,11 @@ form {
    }
 
 
-
+    
 @media(max-width:450px){
     html{
         font-size: 50%;
     }
     
+}
 }

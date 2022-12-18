@@ -1,56 +1,62 @@
 <!DOCTYPE HTML>  
 <html>
-<head>
+<head>  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DocInTouch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 <style>
 .error {color: #FF0000;}
 </style>
 <a href="page.php"></a>
 </head>
 <body>  
-
+<section class="signup">
 <h2>Doctor Registration</h2>
-<p><span class="error">* required field</span></p>
+<p class="req"><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
-    Title: <input type="text" name="name" value=" Dr.">
+  <div class="label">Title: <input type="text" name="name" value=""></div>
     <span class="error">* <?php echo $nameErr;?></span>
     <br><br>
-    First Name: <input type="text" name="name" value="">
+    <div class="label">First Name: <input type="text" name="name" value=""></div>
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
-  Last Name: <input type="text" name="name" value="">
+  <div class="label">Last Name: <input type="text" name="name" value=""></div>
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
-  District: <input type="text" name="email" value=>
+  <div class="label">District: <input type="text" name="email" value=></div>
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
   
-  Gender:
+  <div class="label"><b>Gender:</b>
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>Female
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> Male
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> Other  
-  <span class="error">* <?php echo $genderErr;?></span>
+  <span class="error">* <?php echo $genderErr;?></span></div>
   <br><br>
-  National ID / Passport Number: <input type="text" name="email" value=>
+  <div class="label">National ID / Passport Number: <input type="text" name="email" value=></div>
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  Registration Number (BMDC): <input type="text" name="email" value=>
+  <div class="label">Registration Number (BMDC): <input type="text" name="email" value=></div>
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  Doctor Type: <input type="text" name="email" value=>
+  <div class="label">Doctor Type: <input type="text" name="email" value=></div>
   <span class="error">* <?php echo $emailErr;?></span>
   <br><br>
-  Mobile number: <input type="text" name="name" value="">
+  <div class="label">Mobile number: <input type="text" name="name" value=""></div>
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
-  E-mail: <input type="text" name="name" value="">
+  <div class="label">E-mail: <input type="text" name="name" value=""></div>
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
- password: <input type="text" name="name" value="">
+  <div class="label">password: <input type="text" name="name" value=""></div>
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
 
 
-  <input type="submit" name="submit" value="Submit">  
-</form>
+  <a href="#" class="btn">SUBMIT<span class="fas fa-hevron-right"></span></a>
+</form></section>
 </body>
 </html>
